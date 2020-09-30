@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="slider">
+    <mat-label>TEMPO: {{ tempo }} bpm</mat-label>
+    <mat-slider
+      thumbLabel
+      tickInterval="50"
+      step="5"
+      min="0"
+      max="300"
+      value="{{ tempo }}"
+      (change)="sliderChangedValue($event.value)"
+    ></mat-slider>
+  </div>
+
+  <div class="pad-wrapper">
+    <div *ngFor="let pad of pads; let i = index">
+      <app-pad [audioSrc]="pad" [key]="keys[i]"></app-pad>
+    </div>
+  </div>
+</div>

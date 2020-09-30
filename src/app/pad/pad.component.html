@@ -1,0 +1,9 @@
+<button
+  mat-raised-button
+  [ngClass]="this.on ? 'on' : 'pad-color'"
+  class="pad"
+  (click)="toggleButton()"
+  id="{{ id }}"
+>
+  {{ key }}
+</button>

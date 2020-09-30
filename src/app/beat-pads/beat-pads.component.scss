@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.pad-wrapper {
+  margin-top: 10%;
+  width: 25%;
+  display: grid;
+  grid-gap: 25px 25px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.slider {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 28px;
+  font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+}
+
+mat-slider {
+  margin-top: 20%;
+}

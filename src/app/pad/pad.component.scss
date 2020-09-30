@@ -1,0 +1,19 @@
+.pad {
+  height: 100px;
+  width: 100px;
+  font-size: 28px;
+}
+
+.pad:hover {
+  opacity: 0.7;
+}
+
+.pad-color {
+  opacity: 0.85;
+  background-color: blueviolet;
+}
+
+.on {
+  background-color: darkorange;
+  opacity: 1;
+}

@@ -1,5 +1,6 @@
 # Producer
 
+A website to create your own beats and mixes. The 16 pads are key controlled as well to make things easier.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
 ## Development server
